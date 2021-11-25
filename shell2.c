@@ -28,7 +28,7 @@ int command_pipe[2];
  *    fd3 = command(fd2, 0, 1), with args[0] = "wc"
  *
  * So if 'command' returns a file descriptor, the next 'command' has this
- * descriptor as its 'input'.
+ * descriptor as its 'input'..
  */
 static int command(int input, int first, int last)
 {
